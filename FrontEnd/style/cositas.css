@@ -1,0 +1,10 @@
+/* Le da un color de fondo a la página */
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+/* Cambia el color del título a azul */
+h1 {
+    color: blue;
+}
