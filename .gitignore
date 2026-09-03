@@ -1,0 +1,51 @@
+# Archivos comprimidos y entregables pesados
+*.zip
+*.rar
+*.7z
+
+# Documentos de trabajo pesados (si no corresponden al código fuente)
+# *.pptx (Se decidio agregar para mantener la integridad del archivo, subirlo a drive lo cambia)
+# *.docx (lo mismo que .pptx)
+*.pdf
+
+# -----------------------------------------------------------------------------
+# Configuración local de IDEs y editores de texto
+# -----------------------------------------------------------------------------
+# Configuraciones personales de VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Configuraciones de IntelliJ / WebStorm (por si algún compañero lo usa)
+.idea/
+
+# -----------------------------------------------------------------------------
+# Archivos temporales y de sistema operativo
+# -----------------------------------------------------------------------------
+# Archivos del sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos del sistema macOS (por si algún compañero trabaja desde Mac)
+.DS_Store
+.AppleDouble
+.lsbundle
+
+# Archivos de registros y logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------------------------------------------------------
+# Dependencias y carpetas generadas automáticamente (para más adelante)
+# -----------------------------------------------------------------------------
+# Si en el futuro instalan paquetes de Node.js / NPM
+node_modules/
+
+# Directorios de compilación o empaquetado
+dist/
+build/
