@@ -4,8 +4,8 @@
 *.7z
 
 # Documentos de trabajo pesados (si no corresponden al código fuente)
-*.pptx
-*.docx
+# *.pptx (Se decidio agregar para mantener la integridad del archivo, subirlo a drive lo cambia)
+# *.docx (lo mismo que .pptx)
 *.pdf
 
 # -----------------------------------------------------------------------------
